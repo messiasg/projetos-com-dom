@@ -1,0 +1,10 @@
+/* Estilo do modo claro e escuro */
+.modo-claro {
+  background-color: aliceblue;
+  color: black;
+}
+
+.modo-escuro {
+  background-color: black;
+  color: aliceblue;
+}

@@ -1,0 +1,7 @@
+.displayAtivo {
+  display: block;
+}
+
+.displayInativo {
+  display: none;
+}

@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="V7Jx3A7uO0_b20nxBk6G" name="remover-item-lista">
+        <mxGraphModel dx="1242" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="320" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Acessar a Página Web" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Clicar No Botão Para Realizar Remoção do Item da Lista" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Apresentação da ul 'lista' com seu itens" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="140" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Botão Para Remoção do Último Item da Lista" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="300" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-12" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="60" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-13" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="removendoItem" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-15" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="12" target="TXEDZEzkQOgzHMXpvlX2-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Obter a Referência do Botão e Adicionar Evento Para Remoção do Último Item da Lista" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="730" y="260" width="140" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-14" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="740" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="330" as="sourcePoint"/>
+                        <mxPoint x="170" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-17" value="" style="endArrow=none;dashed=1;html=1;fontSize=14;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="310" y="360" as="sourcePoint"/>
+                        <mxPoint x="530" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TXEDZEzkQOgzHMXpvlX2-18" value="" style="endArrow=none;dashed=1;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="11">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="530" y="260" as="sourcePoint"/>
+                        <mxPoint x="590" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="0ydSrW6ecd4754sd1q15" name="removendoItem">
+        <mxGraphModel dx="1461" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="BZVZmFEX8y6k6KcjuUOi-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;removendoItem&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="192" y="50" width="444" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="C99Q7rxW0zUttDbI0Bog-3" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="BZVZmFEX8y6k6KcjuUOi-2" target="C99Q7rxW0zUttDbI0Bog-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="BZVZmFEX8y6k6KcjuUOi-2" value="Obter a Referência da Lista Não Ordenada '&lt;span style=&quot;font-size: 12px;&quot;&gt;lista'&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="327" y="160" width="174" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="GYgaBvrgBWeeEveexXhf-1" value="Usar o removeChild para excluir o último &lt;font color=&quot;#d19a66&quot;&gt;&lt;span style=&quot;background-color: rgba(255, 255, 255, 0.1);&quot;&gt;item&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="341" y="460" width="146" height="75" as="geometry"/>
+                </mxCell>
+                <mxCell id="C99Q7rxW0zUttDbI0Bog-2" value="" style="edgeStyle=none;html=1;fontSize=14;" edge="1" parent="1" source="C99Q7rxW0zUttDbI0Bog-1" target="GYgaBvrgBWeeEveexXhf-1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="C99Q7rxW0zUttDbI0Bog-1" value="Obter a Referência dos Itens da Lista Não Ordenada" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="300" width="174" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

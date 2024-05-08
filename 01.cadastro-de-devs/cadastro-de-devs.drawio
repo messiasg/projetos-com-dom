@@ -1,0 +1,295 @@
+<mxfile host="65bd71144e">
+    <diagram id="KFPA3JJ6c2dAHeiqzLNH" name="Ações do usuário">
+        <mxGraphModel dx="857" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Usuário&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="555" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Acessar a página web" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" parent="1" source="4" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Preencher campos indicados" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=none;html=1;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Clicar no botão para adicionar uma nova tecnologia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=none;html=1;" parent="1" source="8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="300" y="860" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="Preencher os campos com os dados da tecnologia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="750" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="12" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="250" y="900.2857142857142" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="180" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.667;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="12" target="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="460" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Usuário escolhe ação" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="860" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="" style="edgeStyle=none;html=1;" parent="1" source="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="180" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Se escolher excluir os campos da tecnologia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="950" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Campos excluídos" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="1070" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="440" y="1070" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Se escolher salvar a tecnologia" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="950" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="edgeStyle=none;html=1;" parent="1" source="24" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Tecnologia salva" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="1070" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Campos do formulário serão limpos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="1200" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;dashed=1;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="540" as="sourcePoint"/>
+                        <mxPoint x="220" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Il5e9bKUzJ7mGidNjTxb" name="Estrutura página web">
+        <mxGraphModel dx="1072" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="OoxA_W0-IJHzofKeZ3u8-4" target="OoxA_W0-IJHzofKeZ3u8-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="1070" as="sourcePoint"/>
+                        <mxPoint x="420" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-4" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="1080" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="200" as="sourcePoint"/>
+                        <mxPoint x="550" y="200" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-7" value="Titulp da página" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="160" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SnX6Odm2NeBBSZQ8_Ark-1" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OoxA_W0-IJHzofKeZ3u8-9" target="OoxA_W0-IJHzofKeZ3u8-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-9" value="Form" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="310" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SnX6Odm2NeBBSZQ8_Ark-2" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OoxA_W0-IJHzofKeZ3u8-11" target="OoxA_W0-IJHzofKeZ3u8-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-11" value="Campo nome do usuário" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="460" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SnX6Odm2NeBBSZQ8_Ark-3" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OoxA_W0-IJHzofKeZ3u8-13" target="OoxA_W0-IJHzofKeZ3u8-15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-13" value="Botão para adicionar nova tecnologia" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="610" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SnX6Odm2NeBBSZQ8_Ark-4" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="OoxA_W0-IJHzofKeZ3u8-15" target="_qo6_Ul0gwRJuXSDv1cM-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="OoxA_W0-IJHzofKeZ3u8-15" value="Section onde será apresentado os novos inputs dinamicamente" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="770" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="_qo6_Ul0gwRJuXSDv1cM-2" value="Botão para salvar as informações" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="930" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="SnX6Odm2NeBBSZQ8_Ark-5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="OoxA_W0-IJHzofKeZ3u8-9">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="350" as="sourcePoint"/>
+                        <mxPoint x="540" y="350" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="-6d130YYJitkgh3qOOfu" name="Main.js">
+        <mxGraphModel dx="739" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-2" value="" style="edgeStyle=none;html=1;" parent="1" source="iXHy5Y3Z3JABQj2JlQfn-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="414" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="iXHy5Y3Z3JABQj2JlQfn-1" value="Início" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="50" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-5" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-3" target="U7vNuqxeF0o0ZQpzL-2r-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-3" value="Obter botão 'para adicionar tecnologia'" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-7" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-4" target="U7vNuqxeF0o0ZQpzL-2r-6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-4" value="Incluir evento no botão arrow function que irá incluir os novos campos de preenchimento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-9" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-6" target="U7vNuqxeF0o0ZQpzL-2r-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-6" value="Obter botão 'para remover linha' e inclusão de evento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-11" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-8" target="U7vNuqxeF0o0ZQpzL-2r-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-8" value="Incluir evento no botão arrow function que irá remover a linha contendo os novos campos de preenchimento" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="500" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-13" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-10" target="U7vNuqxeF0o0ZQpzL-2r-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-10" value="Obter botão que submete o formulário e incluir função incluirNoArray" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-15" value="" style="edgeStyle=none;html=1;" parent="1" source="U7vNuqxeF0o0ZQpzL-2r-12" target="U7vNuqxeF0o0ZQpzL-2r-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-12" value="função limparCampos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="U7vNuqxeF0o0ZQpzL-2r-14" value="Fim" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="840" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="MSOPdQ2f4F3H4WTO8Jwx" name="incluirNovosCampos">
+        <mxGraphModel dx="1072" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="beu5TFFIBuhlIDhQ3n0B-3" value="" style="edgeStyle=none;html=1;" parent="1" source="beu5TFFIBuhlIDhQ3n0B-1" target="beu5TFFIBuhlIDhQ3n0B-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="beu5TFFIBuhlIDhQ3n0B-1" value="Obter o elemento pai section" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="80" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="beu5TFFIBuhlIDhQ3n0B-5" value="" style="edgeStyle=none;html=1;" parent="1" source="beu5TFFIBuhlIDhQ3n0B-2" target="beu5TFFIBuhlIDhQ3n0B-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="beu5TFFIBuhlIDhQ3n0B-2" value="Criação de um campo de texto destinado ao nome da tecnologia" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="180" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GdSoLwF9Qj5o3SrdYsbm-2" value="" style="edgeStyle=none;html=1;" parent="1" source="beu5TFFIBuhlIDhQ3n0B-4" target="GdSoLwF9Qj5o3SrdYsbm-1" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="beu5TFFIBuhlIDhQ3n0B-4" value="Criação de um grupo de botões tipo radio com as opções de tempo de experiência" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GdSoLwF9Qj5o3SrdYsbm-4" value="" style="edgeStyle=none;html=1;" parent="1" source="GdSoLwF9Qj5o3SrdYsbm-1" target="GdSoLwF9Qj5o3SrdYsbm-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="GdSoLwF9Qj5o3SrdYsbm-1" value="Criação de um botão que executará a função removerLinha" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="370" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="GdSoLwF9Qj5o3SrdYsbm-3" value="Vincular elementos ao elemento pai" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="480" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="dhPPVh6-pw3mUcPVNtgT" name="incluirNoArray">
+        <mxGraphModel dx="739" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-4" value="" style="edgeStyle=none;html=1;" parent="1" source="FJ7Gw3VuBuoNHCeia1rc-2" target="FJ7Gw3VuBuoNHCeia1rc-3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-2" value="Obter valor preenchido pelo usuário" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="332" y="90" width="164" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-6" value="" style="edgeStyle=none;html=1;" parent="1" source="FJ7Gw3VuBuoNHCeia1rc-3" target="FJ7Gw3VuBuoNHCeia1rc-5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-3" value="Criação de um array" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="230" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-8" value="" style="edgeStyle=none;html=1;" parent="1" source="FJ7Gw3VuBuoNHCeia1rc-5" target="FJ7Gw3VuBuoNHCeia1rc-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-5" value="Inclusão dos valores dentro do array" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-11" value="" style="edgeStyle=none;html=1;" parent="1" source="FJ7Gw3VuBuoNHCeia1rc-7" target="FJ7Gw3VuBuoNHCeia1rc-10" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-7" value="Apresentação do array no console do navegador" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="470" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FJ7Gw3VuBuoNHCeia1rc-10" value="Acionar função limparCampos" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="bD1EUqMtaAD9voH4o710" name="removerLinha">
+        <mxGraphModel dx="1072" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="CoysQZh4qfKIA91OjuOB-3" value="" style="edgeStyle=none;html=1;" parent="1" source="CoysQZh4qfKIA91OjuOB-1" target="CoysQZh4qfKIA91OjuOB-2" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="CoysQZh4qfKIA91OjuOB-1" value="Seleção do elemento filho" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="324" y="90" width="180" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="CoysQZh4qfKIA91OjuOB-2" value="Exclusão do elemento com o método 'remove()'" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="354" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
